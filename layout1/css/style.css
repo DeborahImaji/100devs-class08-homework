@@ -1,0 +1,96 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+.noto-sans {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100 900;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {}
+
+.navbar {
+  background-color: #000000;
+  height: 2.5rem;
+  width: 100%;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  border-right: 0.007rem solid #A2A2A2;
+  color: #FFFFFF;
+  float: left;
+  height: 2.5rem;
+  line-height: 1.5rem;
+  padding: 0.5rem 0.5rem;
+
+}
+
+.bbc-logo-li {
+  width: 8%;
+}
+
+.bbc-logo {
+  vertical-align: middle;
+  width: 5rem;
+}
+
+.sign-in-li {
+  width: 8%;
+}
+
+.sign-in-logo {
+  float: left;
+  line-height: 1.5rem;
+  margin: 0 8% 0 5%;
+  vertical-align: middle;
+  width: 1.15rem;
+}
+
+.sign-in-text {
+  font-size: 0.8rem;
+  font-weight: 600;
+  float: left;
+  margin: 0;
+}
+
+footer {}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
