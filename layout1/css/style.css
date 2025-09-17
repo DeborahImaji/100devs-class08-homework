@@ -33,6 +33,12 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
 
 /******************************************
 /* LAYOUT
@@ -118,6 +124,60 @@ header {}
 .search-li {
   border: none;
   width: 15%;
+}
+
+.search-li form {
+  padding: 0 10%;
+}
+
+.search-li input {
+  background-color: #FFFFFF;
+  border: none;
+  float: left;
+  line-height: 1.5rem;
+}
+
+.search-li button {
+  background-color: #FFFFFF;
+  border: none;
+  float: left;
+  line-height: 1.5rem;
+}
+
+.top-section,
+.bottom-section {
+  padding: 2.25rem 1.75rem 0 1.75rem;
+}
+
+.top-header {
+  margin: 0 0 3.25rem 0;
+}
+
+.top-header h1 {
+  color: #4f4f4f;
+  float: left;
+  font-size: 1.7rem;
+  margin: 0;
+}
+
+.top-header h2 {
+  color: #969696;
+  float: right;
+  font-weight: 400;
+  margin: 0;
+}
+
+.top-section-left {
+  background-image: url("../assets/israel-uae.png");
+  background-size: cover;
+  float: left;
+  height: 30rem;
+  width: 45%;
+}
+
+.top-section-right {
+  float: left;
+  width: 55%;
 }
 
 footer {}
