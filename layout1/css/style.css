@@ -20,22 +20,16 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
-.noto-sans {
-  font-family: "Noto Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100 900;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-
 body {
-  font-family: "Noto Sans", sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+p,
+span {
   margin: 0;
 }
 
@@ -48,7 +42,9 @@ header {}
 .navbar {
   background-color: #000000;
   height: 2.75rem;
+  position: fixed;
   width: 100%;
+  z-index: 1000;
 }
 
 .navbar ul {
@@ -146,23 +142,24 @@ header {}
 
 .top-section,
 .bottom-section {
-  padding: 2.25rem 1.75rem 0 1.75rem;
+  padding: 4.5rem 0.5rem 0 0.5rem;
 }
 
 .top-header {
-  margin: 0 0 3.25rem 0;
+  margin: 0 0 2.15rem 0;
 }
 
 .top-header h1 {
   color: #4f4f4f;
   float: left;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   margin: 0;
 }
 
 .top-header h2 {
   color: #969696;
   float: right;
+  font-size: 1.5rem;
   font-weight: 400;
   margin: 0;
 }
@@ -170,14 +167,69 @@ header {}
 .top-section-left {
   background-image: url("../assets/israel-uae.png");
   background-size: cover;
+  color: #FFFFFF;
   float: left;
-  height: 30rem;
-  width: 45%;
+  height: 26rem;
+  margin-right: 1%;
+  padding: 0.7rem;
+  position: relative;
+  width: 49%;
+}
+
+.top-section-left-wrapper {
+  bottom: 0.6rem;
+  position: absolute;
+}
+
+.top-section-left-wrapper h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 0.4rem;
+}
+
+.top-section-left-wrapper p {
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin-bottom: 0.25rem;
+}
+
+.top-section-left-wrapper span {
+  border-left: 0.15rem solid #FF0000;
+  font-size: 0.75rem;
+  font-weight: 300;
+  padding-left: 0.4rem;
 }
 
 .top-section-right {
+  color: #FFFFFF;
   float: left;
-  width: 55%;
+  width: 49%;
+}
+
+.top-section-right h3 {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.top-section-right span {
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.top-right-americans {
+  background-image: url("../assets/americans.jpg");
+  background-size: cover;
+  float: left;
+  height: 7.5rem;
+  margin: 0 2% 2% 0;
+  padding: 0.5rem;
+  position: relative;
+  width: 49%;
+}
+
+.americans-wrapper {
+  position: absolute;
+  bottom: 0.5rem;
 }
 
 footer {}
