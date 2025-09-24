@@ -9,6 +9,17 @@
 
 	<title>BBC</title>
 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+		rel="stylesheet">
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<!-- external CSS link -->
@@ -18,15 +29,15 @@
 
 <body>
 
-	<nav class="navbar">
+	<nav>
 		<ul>
 			<li class="bbc-logo-li">
-				<img src="assets/bbc-logo.png" alt="White BBC logo" class="bbc-logo">
+				<img src="assets/bbc-logo.jpg" alt="white-bbc-logo" class="bbc-logo">
 			</li>
 
 			<li class="sign-in-li">
-				<img src="assets/sign-in-logo.png" alt="Sign in logo" class="sign-in-logo">
-				<p class="sign-in-text">Sign in</p>
+				<img src="assets/sign-in.jpg" alt="White sign in icon">
+				<a>Sign in</a>
 			</li>
 
 			<li class="menu-option">
@@ -45,7 +56,7 @@
 				<a>Reel</a>
 			</li>
 
-			<li class="menu-option">
+			<li class="menu-option-long">
 				<a>Worklife</a>
 			</li>
 
@@ -62,21 +73,23 @@
 			</li>
 
 			<li class="more-li">
-				<form>
-					<label for="more">More</label>
-					<select name="more-option" id="more">
-						<option value="none"></option>
-						<option value="education">Education</option>
-						<option value="health">Health</option>
-						<option value="politics">Politics</option>
-					</select>
-				</form>
+				<label for="more">
+					More
+				</label>
+				<select name="more" id="more">
+					<option></option>
+					<option value="education">Education</option>
+					<option value="health">Health</option>
+					<option value="politics">Politics</option>
+				</select>
 			</li>
 
 			<li class="search-li">
 				<form>
-					<input type="search" name="search" id="search-bar" placeholder="Search">
-					<button type="submit"><i class="fa fa-search"></i></button>
+					<input type="search" placeholder="Search" name="search">
+					<button type="submit">
+						<i class="fa fa-search"></i>
+					</button>
 				</form>
 			</li>
 		</ul>
@@ -84,64 +97,83 @@
 
 	<main>
 
-		<section class="top-section">
-			<div class="top-header">
-				<h1>Welcome to BBC.com</h1>
-				<h2>Thursday, 13 August</h2>
-			</div>
-			<div class="top-section-left">
-				<div class="top-section-left-wrapper">
+		<div class="main-heading">
+			<h1>Welcome to BBC.com</h1>
+			<h2>Thursday, 13 August</h2>
+		</div>
+
+		<section class="top">
+
+			<div class="top-left">
+				<div>
 					<h2>Israel and UAE strike historic peace deal</h2>
 					<p>Israel and the UAE agree to normalise relations, marking the third Israel-Arab peace deal.</p>
 					<span>MIDDLE EAST</span>
 				</div>
 			</div>
-			<div class="top-section-right">
-				<div class="top-right-americans">
-					<div class="americans-wrapper">
+
+			<div class="top-right">
+
+				<div class="americans-div">
+					<div>
 						<h3>Americans, go home: Tension at Canada-US border</h3>
 						<span>CANADA</span>
 					</div>
 				</div>
-				<div>
-					<h3>How will the world vaccinate seven billion people?</h3>
-					<span>HEALTH</span>
+
+				<div class="vaccine-div">
+					<div>
+						<h3>How will the world vaccinate seven billion people?</h3>
+						<span>HEALTH</span>
+					</div>
 				</div>
-				<div>
-					<h3>The online 'productivity gyms'</h3>
-					<span>WORKLIFE</span>
+
+				<div class="online-div">
+					<div>
+						<h3>The online 'productivity gyms'</h3>
+						<span>WORKLIFE</span>
+					</div>
 				</div>
-				<div>
-					<h3>The folk singer murdered for his music</h3>
-					<span>CULTURE</span>
+
+				<div class="folk-div">
+					<div>
+						<h3>The folk singer murdered for his music</h3>
+						<span>CULTURE</span>
+					</div>
 				</div>
+
 			</div>
+
 		</section>
 
-		<section class="bottom-section">
-			<h2>News</h2>
-			<div>
-				<div>
-					<img src="" alt="">
-					<h3>Biden and Harris say Trump has left US 'in tatters'</h3>
-					<p>Joe Biden and running mate Kamala Harris call President Donald Trump a "whining" incompetent
-						leader.</p>
-					<span>US ELECTION 2020</span>
-				</div>
-				<div>
-					<img src="" alt="">
-					<h3>Women form 'solidarity chains' in Belarus protests</h3>
-					<p>Women take to the streets of Minsk dressed in white as they demand an end to police brutality.
-					</p>
-					<span>EUROPE</span>
-				</div>
-				<div>
-					<img src="" alt="">
-					<h3>Trump says low-pressure shower heads won't wash</h3>
-					<p>The US calls for rules to be eased after Donald Trump complained of issues washing his hair.</p>
-					<span>US & CANADA</span>
-				</div>
+		<div class="bottom-heading">
+			<h3>News</h3>
+		</div>
+
+		<section class="bottom">
+
+			<div class="biden-div">
+				<img src="assets/biden.jpg" alt="Joe Biden and Kamala Harris">
+				<h4>Biden and Harris say Trump has left US 'in tatters'</h4>
+				<p>Joe Biden and running mate Kamala Harris call President Donald Trump a "whining" incompetent leader.
+				</p>
+				<span>US ELECTION 2020</span>
 			</div>
+
+			<div class="women-div">
+				<img src="assets/women.jpg" alt="Belarus women protesting">
+				<h4>Women form 'solidarity chains' in Belarus protests</h4>
+				<p>Women take to the streets of Minsk dressed in white as they demand an end to police brutality.</p>
+				<span>EUROPE</span>
+			</div>
+
+			<div class="trump-div">
+				<img src="assets/trump.jpg">
+				<h4>Trump says low-pressure shower heads won't wash</h4>
+				<p>The US calls for rules to be eased after Donald Trump complained of issues washing his hair.</p>
+				<span>US & CANADA</span>
+			</div>
+
 		</section>
 
 	</main>

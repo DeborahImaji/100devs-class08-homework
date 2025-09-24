@@ -20,8 +20,25 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
+.work-sans {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100 900;
+  font-style: normal;
+}
+
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -39,197 +56,298 @@ span {
 /*******************************************/
 header {}
 
-.navbar {
+nav {
   background-color: #000000;
-  height: 2.75rem;
-  position: fixed;
-  width: 100%;
-  z-index: 1000;
+  color: #FFFFFF;
+  font-family: "Work Sans", sans-serif;
+  height: 2rem;
+  overflow: hidden;
 }
 
-.navbar ul {
+nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.navbar ul li {
-  border-right: 0.007rem solid #A2A2A2;
-  color: #FFFFFF;
+nav ul li {
+  border-right: 0.05rem solid #666;
   float: left;
-  height: 2.75rem;
-  line-height: 1.75rem;
-  padding: 0.5rem 0.75rem;
+  font-size: 0.6rem;
+  font-weight: 500;
+  padding: 0.4rem 0.4rem;
+}
 
+nav ul li a {
+  line-height: 1.2rem;
 }
 
 .bbc-logo-li {
-  width: 5.5%;
+  width: 8.5%;
 }
 
 .bbc-logo {
-  vertical-align: middle;
-  width: 5rem;
+  height: 1.2rem;
+  width: 4rem;
 }
 
 .sign-in-li {
-  width: 12.5%;
+  padding-left: 0.8rem;
+  width: 14%;
 }
 
-.sign-in-logo {
-  float: left;
-  margin: 2.75% 5% 0 2.5%;
+.sign-in-li img {
+  height: 1rem;
   vertical-align: middle;
-  width: 1.15rem;
+  width: 1rem;
 }
 
-.sign-in-text {
-  font-size: 0.9rem;
-  font-weight: 600;
-  float: left;
-  margin: 0;
+.sign-in-li a {
+  margin-left: 0.1rem;
 }
 
 .menu-option {
   text-align: center;
-  width: 7%;
+  width: 6.15%;
 }
 
-.menu-option a {
-  color: #FFFFFF;
-  font-size: 0.9rem;
-  font-weight: 600;
+.menu-option-long {
+  text-align: center;
+  width: 7.35%;
 }
 
 .more-li {
+  line-height: 1.2rem;
   text-align: center;
-  width: 11%;
-}
-
-.more-li label {
-  font-size: 0.9rem;
-  font-weight: 600;
+  width: 12.5%;
 }
 
 .more-li select {
-  background-color: #000000;
+  background-color: transparent;
   border: none;
   color: #FFFFFF;
 }
 
 .search-li {
   border: none;
-  width: 15%;
-}
-
-.search-li form {
-  padding: 0 10%;
+  padding-left: 1rem;
+  width: 14.5%;
 }
 
 .search-li input {
   background-color: #FFFFFF;
   border: none;
+  color: #000000;
   float: left;
-  line-height: 1.5rem;
+  height: 1.1rem;
+  width: 84%;
 }
 
 .search-li button {
   background-color: #FFFFFF;
   border: none;
   float: left;
-  line-height: 1.5rem;
+  height: 1.1rem;
+  width: 15%;
 }
 
-.top-section,
-.bottom-section {
-  padding: 5.5rem 1rem 0 1rem;
+main {
+  padding: 1.5rem 0.35rem 0 0.35rem;
 }
 
-.top-header {
-  margin: 0 0 2.9rem 0;
+.main-heading {
+  margin-bottom: 1.75rem;
 }
 
-.top-header h1 {
-  color: #4f4f4f;
+.main-heading h1 {
+  color: #474747;
+  font-size: 1.05rem;
   float: left;
-  font-size: 1.5rem;
-  margin: 0;
+  width: 50%;
 }
 
-.top-header h2 {
-  color: #969696;
-  float: right;
-  font-size: 1.5rem;
+.main-heading h2 {
+  color: #989898;
+  font-size: 1.05rem;
   font-weight: 400;
-  margin: 0;
+  float: right;
 }
 
-.top-section-left {
+.top {
+  color: #FFF;
+  margin-bottom: 20.5rem;
+}
+
+.top-left {
   background-image: url("../assets/israel-uae.png");
   background-size: cover;
-  color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: inset 0 -3.125rem 3.125rem rgba(0, 0, 0, 0.6);
   float: left;
-  height: 32.5rem;
-  margin-right: 1%;
-  padding: 1.5rem;
+  height: 16.5rem;
+  margin-right: 1.2%;
+  padding: 0 0.8rem;
   position: relative;
-  width: 48%;
+  width: 49.5%;
 }
 
-.top-section-left-wrapper {
-  bottom: 1.5rem;
+.top-left div {
+  bottom: 0.5rem;
   position: absolute;
 }
 
-.top-section-left-wrapper h2 {
-  font-size: 3rem;
-  font-weight: 350;
-  margin-bottom: 0.8rem;
-}
-
-.top-section-left-wrapper p {
-  font-size: 1.25rem;
-  font-weight: 300;
-  margin-bottom: 0.8rem;
-}
-
-.top-section-left-wrapper span {
-  border-left: 0.15rem solid #FF0000;
-  font-size: 1rem;
-  font-weight: 300;
-  padding-left: 0.4rem;
-}
-
-.top-section-right {
-  color: #FFFFFF;
-  float: left;
-  width: 49%;
-}
-
-.top-section-right h3 {
-  font-size: 0.9rem;
-  font-weight: 500;
-}
-
-.top-section-right span {
-  font-size: 0.75rem;
+.top-left h2 {
+  font-size: 1.55rem;
   font-weight: 400;
+  margin-bottom: 0.4rem;
 }
 
-.top-right-americans {
+.top-left p {
+  font-size: 0.75rem;
+  font-weight: 300;
+  margin-bottom: 0.2rem;
+  padding-right: 2rem;
+}
+
+.top-left span {
+  border-left: 0.1rem solid #E3242B;
+  font-size: 0.6rem;
+  font-weight: 300;
+  padding-left: 0.35rem;
+}
+
+.top-right div {
+  padding: 0 0.3rem;
+  position: relative;
+}
+
+.top-right div div {
+  position: absolute;
+  bottom: 0.4rem;
+}
+
+.top-right h3 {
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-bottom: 0.2rem;
+  padding-right: 0.5rem;
+}
+
+.top-right span {
+  border-left: 0.1rem solid #2196F3;
+  font-size: 0.6rem;
+  font-weight: 300;
+  padding-left: 0.35rem;
+}
+
+.americans-div {
   background-image: url("../assets/americans.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: inset 0 -3.125rem 3.125rem rgba(0, 0, 0, 0.6);
   float: left;
-  height: 7.5rem;
-  margin: 0 2% 2% 0;
-  padding: 0.5rem;
-  position: relative;
-  width: 49%;
+  height: 8.25rem;
+  margin-right: 1.2%;
+  width: 24%;
 }
 
-.americans-wrapper {
-  position: absolute;
-  bottom: 0.5rem;
+.vaccine-div {
+  background-image: url("../assets/vaccine.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: inset 0 -3.125rem 3.125rem rgba(0, 0, 0, 0.6);
+  float: left;
+  height: 8.25rem;
+  width: 24%;
+}
+
+.vaccine-div span {
+  border-left: 0.1rem solid #E3242B;
+}
+
+.online-div {
+  background-image: url("../assets/online.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: inset 0 -3.125rem 3.125rem rgba(0, 0, 0, 0.6);
+  float: left;
+  height: 7.9rem;
+  margin-top: 0.4rem;
+  margin-right: 1.2%;
+  width: 24%;
+}
+
+.folk-div {
+  background-image: url("../assets/folk.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: inset 0 -3.125rem 3.125rem rgba(0, 0, 0, 0.6);
+  float: left;
+  height: 7.9rem;
+  margin-top: 0.4rem;
+  width: 24%;
+}
+
+.folk-div span {
+  border-left: 0.1rem solid #462D71;
+}
+
+.bottom-heading h3 {
+  border-left: 0.2rem solid #E3242B;
+  padding-left: 0.4rem;
+  color: #474747;
+  margin-bottom: 0.8rem;
+}
+
+.bottom {
+  margin-bottom: 19rem;
+}
+
+.bottom div {
+  float: left;
+  width: 32.5%;
+}
+
+.bottom img {
+  margin-bottom: 0.25rem;
+  max-width: 100%;
+}
+
+.bottom h4 {
+  font-size: 0.95rem;
+  margin-bottom: 0.4rem;
+}
+
+.bottom p {
+  color: #474747;
+  font-size: 0.7rem;
+  font-weight: 450;
+  margin-bottom: 0.5rem;
+}
+
+.bottom span {
+  border-left: 0.1rem solid #E3242B;
+  color: #989898;
+  font-size: 0.6rem;
+  font-weight: 350;
+  padding-left: 0.35rem;
+}
+
+.biden-div {
+  margin-right: 1.25%;
+}
+
+.women-div {
+  margin-right: 1.25%;
+}
+
+.trump-div {
+  margin-right: 0;
 }
 
 footer {}
