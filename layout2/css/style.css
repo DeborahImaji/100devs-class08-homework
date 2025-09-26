@@ -20,8 +20,17 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
 body {
+  font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -44,7 +53,10 @@ ul {
 header {}
 
 nav {
-  border-bottom: 2rem solid #f6f6f7;
+  border-bottom: 0.08rem solid #d4d4d4;
+  height: 7.5vh;
+  padding: 0 20%;
+  width: 100%;
 }
 
 nav ul {
@@ -52,7 +64,21 @@ nav ul {
 }
 
 nav li {
+  color: #2f66f3;
   float: left;
+  font-size: 1.1rem;
+  font-weight: 650;
+  line-height: 7.5vh;
+  text-align: center;
+}
+
+nav select {
+  appearance: none;
+  background-color: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='%23333' viewBox='0 0 24 24'><path fill-rule='evenodd' d='M18.425 10.271C19.499 8.967 18.57 7 16.88 7H7.12c-1.69 0-2.618 1.967-1.544 3.271l4.881 5.927a2 2 0 0 0 3.088 0l4.88-5.927Z' clip-rule='evenodd'/></svg>");
+  border: none;
+  color: #2f66f3;
+  width: 10%;
 }
 
 footer {}
