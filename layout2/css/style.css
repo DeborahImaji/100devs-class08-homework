@@ -61,29 +61,32 @@ nav {
 
 nav ul {
   list-style: none;
+  font-size: 0;
 }
 
 nav li {
   color: #2f66f3;
   float: left;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 700;
   line-height: 8.75vh;
-  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .courses-li {
-  width: 10%;
+  width: 13%;
 }
 
 nav select {
-  appearance: none;
-  background: url('../assets/dropdown-arrow.svg') no-repeat right 0.75rem center/1rem auto;
-  background-size: 0.5rem;
   border: none;
+  background-color: transparent;
   color: #2f66f3;
   vertical-align: middle;
-  width: 20%;
+}
+
+.search-li {
+  width: 17.5%;
 }
 
 nav input,
@@ -95,13 +98,13 @@ nav button {
 
 nav input {
   border-radius: 0.25rem 0 0 0.25rem;
-  padding: 0.063rem 0.6rem;
+  padding: 0.053rem 0.35rem;
   width: 67.5%;
 }
 
 nav input::placeholder {
   color: #2f66f3;
-  font-size: 0.9rem;
+  font-size: 0.6rem;
   font-weight: 700;
 }
 
