@@ -29,6 +29,18 @@
     "wdth" 100;
 }
 
+.crimson-text-regular {
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.crimson-text-semibold {
+  font-family: "Crimson Text", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -45,18 +57,23 @@ ul {
 header {}
 
 nav {
+  background: #fff;
   border-bottom: 0.05rem solid #d9d8d8;
-  height: 3.25rem;
+  height: 2.75rem;
+  left: 0;
   margin: 0;
-  padding: 0 9.5%;
+  padding: 0 9.25%;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 nav li {
   color: #2F66F3;
   float: left;
-  font-size: 0.825rem;
+  font-size: 0.7rem;
   font-weight: 700;
-  line-height: 3.25rem;
+  line-height: 2.75rem;
 }
 
 .courses-li {
@@ -64,6 +81,7 @@ nav li {
 }
 
 nav select {
+  background-color: transparent;
   border: none;
   color: #2F66F3;
   vertical-align: middle;
@@ -78,25 +96,63 @@ nav input,
 nav button {
   background-color: #F0F1F2;
   border: none;
-  height: 6vh;
+  height: 6.5vh;
 }
 
 nav input {
   border-radius: 0.2rem 0 0 0.2rem;
-  padding-left: 0.55rem;
+  padding-left: 0.4rem;
   width: 80%;
 }
 
 nav input::placeholder {
   color: #2F66F3;
-  font-size: 0.825rem;
+  font-size: 0.6rem;
   font-weight: 700;
 }
 
 nav button {
   border-radius: 0 0.2rem 0.2rem 0;
   color: #8A8E94;
-  padding-right: 0.5rem;
+  padding-right: 0.35rem;
+}
+
+.logo-li {
+  text-align: center;
+  width: 50%;
+}
+
+.logo-li img {
+  vertical-align: middle;
+  width: 35%;
+}
+
+.menu-option {
+  text-align: center;
+  width: 7.5%;
+}
+
+nav+section {
+  margin-top: 9.5%;
+  padding: 0 12.5%;
+}
+
+.image-div {
+  float: left;
+  width: 50%;
+}
+
+.image-div img {
+  width: 100%;
+}
+
+h1 {
+  font-family: "Crimson Text", serif;
+  font-weight: 600;
+}
+
+.underline-span img {
+  width: 50%;
 }
 
 footer {}
