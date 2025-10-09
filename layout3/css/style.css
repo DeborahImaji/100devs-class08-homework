@@ -30,7 +30,7 @@
 
 body {
   font-family: "Inter", sans-serif;
-  padding: 1.25%;
+  padding: 1.75%;
 }
 
 h1,
@@ -53,7 +53,7 @@ header {}
 nav {
   float: left;
   height: 100vh;
-  width: 12%;
+  width: 14%;
 }
 
 nav ul {
@@ -61,20 +61,146 @@ nav ul {
 }
 
 .logo-li img {
-  margin-bottom: 5%;
-  width: 30%;
+  margin-bottom: 4%;
+  width: 40%;
 }
 
 .techcrunch-plus-li {
   color: #FCC008;
-  font-size: 1rem;
-  font-weight: 700;
-  margin-bottom: 5%;
+  font-size: 0.75rem;
+  font-weight: 900;
+  margin-bottom: 7.25%;
 }
 
 .login-li {
   color: #6b6b6b;
+  font-size: 0.7rem;
+  margin-bottom: 20%;
+}
+
+.menu-option {
+  color: #777;
+  font-size: 1rem;
+  font-weight: 250;
+  margin-bottom: 7.5%;
+}
+
+.roll-pic {
+  width: 50%;
+}
+
+.top-left {
+  float: left;
+  margin-right: 1.25%;
+  width: 55%;
+}
+
+h1 {
+  font-size: 1.475rem;
+  font-weight: 900;
+  margin-bottom: 1.5%;
+}
+
+.top-left span {
+  color: #43464b;
+  display: block;
+  font-size: 0.6rem;
+  font-weight: 700;
+}
+
+.top-left img {
+  margin-top: 1.25%;
+  width: 96%;
+}
+
+.top-right {
+  float: left;
+  width: 29.75%;
+}
+
+.top-right div {
+  border-bottom: 0.08rem solid #e6e6e6;
+  padding-bottom: 1.25%;
+  padding-top: 3.75%;
+}
+
+.top-right div:first-child {
+  padding-top: 0%;
+}
+
+.top-right div:last-child {
+  border: none;
+}
+
+.top-right h2 {
+  font-size: 1.15rem;
+  font-weight: 900;
+  margin-bottom: 0.1%;
+}
+
+.top-right span {
+  color: #43464b;
+  font-size: 0.55rem;
+  font-weight: 700;
+}
+
+.top-right img {
+  width: 10%;
+}
+
+.bottom-section {
+  float: left;
+  width: 86%;
+}
+
+.bottom-section h3 {
   font-size: 0.9rem;
+  margin-bottom: 1.25%;
+  margin-top: 2.25%;
+}
+
+.bottom-div {
+  border-top: 0.08rem solid #e6e6e6;
+  float: left;
+  padding-top: 2%;
+}
+
+.bottom-div div {
+  float: left;
+  margin-right: 15%;
+  width: 20%;
+}
+
+.bottom-div h2 {
+  font-size: 1.15rem;
+  font-weight: 900;
+  margin-bottom: 0.1%;
+}
+
+.bottom-div h2+span {
+  color: #43464b;
+  display: block;
+  font-size: 0.55rem;
+  font-weight: 700;
+}
+
+.bottom-div h2+span+span {
+  color: #666666;
+  font-size: 0.6rem;
+  font-weight: 300;
+}
+
+.bottom-div p {
+  color: #666666;
+  float: left;
+  font-size: 0.8rem;
+  font-weight: 350;
+  width: 28.5%;
+}
+
+.bottom-div p+img {
+  float: left;
+  width: 30%;
 }
 
 footer {}
