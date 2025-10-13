@@ -48,7 +48,8 @@ h4,
 h5,
 h6,
 p,
-span {
+span,
+ul {
     margin: 0;
 }
 
@@ -60,6 +61,80 @@ header {}
 
 nav {
     background: #66768a;
+    height: 4rem;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    float: left;
+    line-height: 4rem;
+}
+
+.classes-li {
+    width: 7.25%;
+}
+
+.hire-li {
+    width: 40%;
+}
+
+.classes-li a,
+.hire-li a {
+    color: #fff;
+    font-size: 0.85rem;
+    font-weight: 650;
+}
+
+.logo-li {
+    width: 45%;
+}
+
+nav img {
+    vertical-align: middle;
+    width: 5%;
+}
+
+.donate-li a {
+    background-color: #fff;
+    border-radius: 0.3rem;
+    color: #66768a;
+    font-size: 0.85rem;
+    font-weight: 650;
+    padding: 12.5% 17.5%;
+}
+
+
+/* INTRO */
+
+.intro {
+    background: #66768a;
+    padding: 7% 6% 3% 6%;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    font-size: 5rem;
+    font-weight: 450;
+    margin-bottom: 4%;
+}
+
+.intro p {
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.45rem;
+    font-weight: 350;
+    margin: 0% auto 4% auto;
+    width: 80%;
+}
+
+.intro img {
+    width: 2.5%;
 }
 
 footer {}
