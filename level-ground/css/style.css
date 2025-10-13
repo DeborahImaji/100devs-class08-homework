@@ -53,6 +53,10 @@ ul {
     margin: 0;
 }
 
+a {
+    cursor: pointer;
+}
+
 
 /******************************************
 /* LAYOUT
@@ -111,13 +115,13 @@ nav img {
 /* INTRO */
 
 .intro {
+    color: #fff;
     background: #66768a;
     padding: 7% 6% 3% 6%;
     text-align: center;
 }
 
 h1 {
-    color: #fff;
     font-family: "Oswald", sans-serif;
     font-size: 5rem;
     font-weight: 450;
@@ -125,16 +129,31 @@ h1 {
 }
 
 .intro p {
-    color: #fff;
     font-family: "Oswald", sans-serif;
     font-size: 1.45rem;
     font-weight: 350;
-    margin: 0% auto 4% auto;
+    line-height: 2rem;
+    margin: 0% auto 5% auto;
     width: 80%;
 }
 
+.intro a {
+    font-size: 1.25rem;
+    font-weight: 350;
+}
+
 .intro img {
+    margin-right: 0.5%;
+    vertical-align: middle;
     width: 2.5%;
+}
+
+.intro span {
+    color: #3d4351;
+    display: block;
+    font-style: italic;
+    font-weight: 600;
+    margin-top: 5.5%;
 }
 
 footer {}
