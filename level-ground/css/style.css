@@ -274,11 +274,12 @@ h1 {
 footer {
     background: #161f2a;
     color: #fff;
-    padding: 2.5% 4%;
+    padding: 2.5% 4% 1.75% 4%;
 }
 
 .footer-left {
     float: left;
+    width: 84%;
 }
 
 .social-div {
@@ -310,15 +311,47 @@ footer {
     margin-right: 2.25%;
 }
 
+.footer-right {
+    float: left;
+    width: 16%;
+}
+
 .footer-right h6 {
     font-size: 0.9rem;
     font-weight: 700;
-    margin-bottom: 0.45%;
+    margin-bottom: 2%;
 }
 
 .footer-right p {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
+    font-weight: 300;
+    line-height: 1.25rem;
     margin-top: 1.35%;
+}
+
+.footer-right strong {
+    font-size: 0.9rem;
+    font-weight: 650;
+}
+
+.footer-bottom {
+    border-top: 0.09rem solid #aeaeae;
+    height: 4rem;
+    margin-top: 15%;
+    padding-top: 0.8%;
+    width: 100%;
+}
+
+.footer-bottom span {
+    float: left;
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+    width: 97.5%;
+}
+
+.footer-bottom img {
+    width: 2.5%;
 }
 
 /******************************************
