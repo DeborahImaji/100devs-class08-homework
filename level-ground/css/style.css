@@ -55,6 +55,7 @@ ul {
 
 a {
     cursor: pointer;
+    text-decoration: none;
 }
 
 
@@ -79,7 +80,7 @@ nav li {
 }
 
 .classes-li {
-    width: 7.25%;
+    width: 7%;
 }
 
 .hire-li {
@@ -89,12 +90,12 @@ nav li {
 .classes-li a,
 .hire-li a {
     color: #fff;
-    font-size: 0.85rem;
+    font-size: 0.7rem;
     font-weight: 650;
 }
 
 .logo-li {
-    width: 45%;
+    width: 42%;
 }
 
 nav img {
@@ -106,8 +107,8 @@ nav img {
     background-color: #fff;
     border-radius: 0.3rem;
     color: #66768a;
-    font-size: 0.85rem;
-    font-weight: 650;
+    font-size: 0.7rem;
+    font-weight: 700;
     padding: 12.5% 17.5%;
 }
 
@@ -117,64 +118,66 @@ nav img {
 .intro {
     color: #fff;
     background: #66768a;
-    padding: 7% 6% 3% 6%;
+    padding: 7% 0% 5% 0%;
     text-align: center;
 }
 
 h1 {
     font-family: "Oswald", sans-serif;
-    font-size: 5rem;
+    font-size: 3.75rem;
     font-weight: 450;
-    margin-bottom: 4%;
+    margin-bottom: 3.5%;
 }
 
 .intro p {
     font-family: "Oswald", sans-serif;
-    font-size: 1.45rem;
-    font-weight: 350;
+    font-size: 1.2rem;
+    font-weight: 375;
     line-height: 2rem;
-    margin: 0% auto 5% auto;
-    width: 80%;
+    margin: 0% auto 2.1% auto;
+    width: 76%;
 }
 
 .intro a {
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 350;
 }
 
 .intro img {
     margin-right: 0.5%;
     vertical-align: middle;
-    width: 2.5%;
+    width: 3%;
 }
 
 .intro span {
     color: #3d4351;
     display: block;
+    font-size: 0.75rem;
     font-style: italic;
     font-weight: 600;
-    margin-top: 5.5%;
+    margin-top: 6.5%;
 }
 
 
 /* PURPOSE */
 
 .purpose {
-    padding: 8% 10%;
+    padding: 9.5% 10%;
     text-align: center;
 }
 
 .purpose h2 {
     color: #161F2A;
     font-family: "Oswald", sans-serif;
-    font-size: 2.5rem;
-    font-weight: 450;
+    font-size: 2rem;
+    font-weight: 500;
     margin-bottom: 2%;
 }
 
 .purpose p {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
     margin: 0 auto;
     width: 60%;
 }
@@ -184,39 +187,139 @@ h1 {
 
 .twin {
     background: #DBDFE2;
-    height: 50rem;
-    padding: 8% 15%;
+    height: 36rem;
+    padding: 10% 10%;
     text-align: center;
 }
 
 .twin-left {
     float: left;
-    margin-right: 5%;
-    width: 47.5%;
+    padding: 0% 2.5%;
+    width: 50%;
+}
+
+.twin-right {
+    float: left;
+    padding: 0% 2.5%;
+    width: 50%;
 }
 
 .image-placeholder {
     background: #66768a;
     box-shadow: 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.267);
-    height: 12rem;
-    margin: 0% auto 7.75% auto;
-    width: 80%;
+    height: 10rem;
+    margin: 0 auto 10.5% auto;
+    width: 78%;
 }
 
 .twin h3 {
     color: #161F2A;
     font-family: "Oswald", sans-serif;
-    font-size: 1.25rem;
-    font-weight: 500;
+    font-size: 1.1rem;
+    font-weight: 550;
     margin-bottom: 5%;
 }
 
-.twin-right {
-    float: left;
-    width: 47.5%;
+.twin p {
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-bottom: 11%;
 }
 
-footer {}
+.twin a {
+    border: 0.035rem solid #000;
+    color: #161F2A;
+    font-family: "Oswald", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 4% 12.5%;
+}
+
+
+/* VOLUNTEER */
+
+.volunteer {
+    padding: 10% 10% 12% 10%;
+    text-align: center;
+}
+
+.volunteer h2 {
+    color: #161F2A;
+    font-family: "Oswald", sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2%;
+}
+
+.volunteer p {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    margin: 0 auto 5% auto;
+    width: 62.5%;
+}
+
+.volunteer a {
+    border: 0.045rem solid #000;
+    color: #161F2A;
+    font-family: "Oswald", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 1.5% 4.75%;
+}
+
+
+/* FOOTER */
+
+footer {
+    background: #161f2a;
+    color: #fff;
+    padding: 2.5% 4%;
+}
+
+.footer-left {
+    float: left;
+}
+
+.social-div {
+    margin-bottom: 1.75%;
+}
+
+.social-div a {
+    margin-right: 1.75%;
+}
+
+.social-div a img {
+    width: 2.5%;
+}
+
+.footer-left h6 {
+    color: #66768a;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-bottom: 0.5%;
+}
+
+.services-footer {
+    margin-bottom: 2%;
+}
+
+.services-footer a {
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-right: 2.25%;
+}
+
+.footer-right h6 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 0.45%;
+}
+
+.footer-right p {
+    font-size: 0.8rem;
+    margin-top: 1.35%;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
