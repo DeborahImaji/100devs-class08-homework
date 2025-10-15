@@ -66,6 +66,10 @@ ul {
     padding: 0;
 }
 
+a {
+    cursor: pointer;
+}
+
 
 /******************************************
 /* LAYOUT
@@ -125,11 +129,13 @@ nav button {
 
 .hero {
     background: #F5F9FC;
-    padding: 9% 0% 5% 10.5%;
+    padding: 0% 0% 5% 10.5%;
 }
 
 .hero-left {
+    background: #F5F9FC;
     float: left;
+    padding-top: 9.75%;
     width: 43%;
 }
 
@@ -143,12 +149,46 @@ nav button {
 .hero-left h1 {
     color: #2C4458;
     font-size: 2.5rem;
-    font-weight: 700;
-    margin-top: 1.25%;
+    font-weight: 900;
+    margin-bottom: 6%;
+    margin-top: 4%;
+    width: 70%;
+}
+
+.hero-left form {
+    margin-bottom: 4%;
+}
+
+.search-bar {
+    background: #E2EAF0;
+    border: none;
+    font-size: 0.75rem;
+    padding: 2.25% 2.75%;
+    width: 52.5%;
+}
+
+.search-bar::placeholder {
+    color: #6a7784;
+}
+
+.search-button {
+    background: #2C4458;
+    border: none;
+    color: #fff;
+    font-size: 0.85rem;
+    padding: 2.25% 5%;
+    vertical-align: middle;
+}
+
+.hero-left p {
+    color: #2C4458;
+    font-size: 0.95rem;
+    width: 65%;
 }
 
 .hero-right {
     float: left;
+    padding-top: 4.5%;
     width: 57%;
 }
 
