@@ -120,6 +120,42 @@ nav button {
     padding: 20% 50%;
 }
 
+
+/* HERO */
+
+.hero {
+    background: #F5F9FC;
+    padding: 9% 0% 5% 10.5%;
+}
+
+.hero-left {
+    float: left;
+    width: 43%;
+}
+
+.hero-left span {
+    color: #6a7784;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.09rem;
+}
+
+.hero-left h1 {
+    color: #2C4458;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 1.25%;
+}
+
+.hero-right {
+    float: left;
+    width: 57%;
+}
+
+.hero-right img {
+    width: 100%;
+}
+
 footer {}
 
 /******************************************
