@@ -140,7 +140,7 @@ nav button {
 }
 
 .hero-left span {
-    color: #6a7784;
+    color: #99ACBB;
     font-size: 0.8rem;
     font-weight: 700;
     letter-spacing: 0.09rem;
@@ -237,7 +237,32 @@ nav button {
 }
 
 
+/* BOTTOM */
 
+.bottom {
+    padding: 5% 10.5%;
+}
+
+.bottom h2 {
+    color: #2C4458;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2.5%;
+    width: 50%;
+}
+
+.bottom p {
+    color: #99ACBB;
+    font-size: 1.05rem;
+    margin-bottom: 5%;
+    width: 55%;
+}
+
+.bottom div {
+    background: #E2EAF0;
+    height: 25rem;
+    width: 100%;
+}
 
 footer {}
 
