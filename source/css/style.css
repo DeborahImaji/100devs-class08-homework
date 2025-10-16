@@ -201,7 +201,43 @@ nav button {
 
 .features {
     background: #F5F9FC;
+    color: #2C4458;
+    /* height: 39.5rem; */
+    padding: 45% 10.5% 19% 10.5%;
 }
+
+.features div {
+    float: left;
+    margin-right: 5.5%;
+    width: 20.5%;
+}
+
+.features div:last-child {
+    margin-right: 0;
+}
+
+.features img {
+    margin-bottom: 9%;
+    width: 15.5%;
+}
+
+.features h3 {
+    font-size: 1.1rem;
+    margin-bottom: 6%;
+}
+
+.features p {
+    font-size: 0.9rem;
+    margin-bottom: 10%;
+}
+
+.features a {
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+
+
 
 footer {}
 
