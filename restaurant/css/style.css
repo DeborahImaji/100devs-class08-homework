@@ -1,0 +1,76 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+.saira {
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100 900;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+body {
+    font-family: "Saira", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+span,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {}
+
+nav ul {
+    list-style: none;
+    padding: 1.5% 3%;
+}
+
+nav ul li {
+    font-size: 0.9rem;
+    float: left;
+}
+
+nav ul li a {
+    color: #0D0D25;
+}
+
+footer {}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
