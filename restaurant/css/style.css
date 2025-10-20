@@ -98,9 +98,9 @@ nav img {
 
 .home {
     background-image: url(../assets/images/home-bg.jpg);
-    padding: 12% 8%;
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 12% 8%;
 }
 
 h1 {
@@ -174,40 +174,16 @@ h1 {
 /* ABOUT US */
 
 .about-us {
-    background-color: #FFF;
-    margin: 0 auto;
-    max-width: 100%;
-    overflow: hidden;
-    position: relative;
+    background-image: url('../assets/images/about-us-bg.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 7.5%;
+    text-align: center;
 }
 
-.about-left-image {
-    float: left;
-    max-width: 37.5%;
-    width: 37.5%;
-}
-
-.about-left-image img {
-    display: block;
-    height: auto;
-    width: 100%;
-}
-
-.about-right-image {
-    float: right;
-    max-width: 37.5%;
-    width: 37.5%;
-}
-
-.about-right-image img {
-    display: block;
-    height: auto;
-    width: 100%;
-}
-
-.about-content {
-    margin: 0 auto;
-    max-width: 50%;
+.about-us-arrow svg {
+    width: 10%;
 }
 
 footer {}
