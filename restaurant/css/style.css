@@ -204,13 +204,55 @@ h1 {
     margin-bottom: 3.5%;
 }
 
-.about-us-discover {
-    background: #FF8800;
-    width: 30%;
+.about-us-discover-left {
+    background: #ff8f11;
+    border-radius: 0.35rem 0 0 0.35rem;
+    color: #FFF;
+    float: left;
+    height: 2.25rem;
+    line-height: 2.25rem;
+    text-align: center;
+    width: 20%;
 }
 
-.about-us-arrow svg {
-    width: 10%;
+.about-us-discover a {
+    color: #FFF;
+    font-size: 0.7rem;
+}
+
+.about-us-discover-right {
+    background: #FFAA4D;
+    border-radius: 0 0.35rem 0.35rem 0;
+    float: left;
+    height: 2.25rem;
+    line-height: 2.25rem;
+    text-align: center;
+    width: 5%;
+}
+
+.about-us-discover svg {
+    fill: #FFF;
+    width: 0.8rem;
+}
+
+
+/* MENU */
+
+.menu {
+    margin: 0 auto;
+    padding: 5% 7.5%;
+    text-align: center;
+}
+
+.menu-desc-span {
+    color: #FF8800;
+    font-weight: 450;
+}
+
+.menu h2 {
+    color: #0D0D25;
+    font-family: "Yeseva One", serif;
+    font-size: 3rem;
 }
 
 footer {}
