@@ -179,7 +179,34 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 7.5%;
-    text-align: center;
+}
+
+.about-us-container {
+    max-width: 90%;
+    padding-left: 37.5%;
+}
+
+.about-desc-span {
+    color: #FF8800;
+    font-weight: 450;
+}
+
+.about-us h2 {
+    color: #0D0D25;
+    font-family: "Yeseva One", serif;
+    font-size: 3rem;
+    margin: 1.5% 0% 5% 0%;
+}
+
+.about-us p {
+    font-size: 0.85rem;
+    line-height: 1.5rem;
+    margin-bottom: 3.5%;
+}
+
+.about-us-discover {
+    background: #FF8800;
+    width: 30%;
 }
 
 .about-us-arrow svg {
