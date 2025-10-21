@@ -239,6 +239,7 @@ h1 {
 /* MENU */
 
 .menu {
+    background: #F2F6F7;
     margin: 0 auto;
     padding: 5% 7.5%;
     text-align: center;
@@ -337,7 +338,7 @@ h1 {
 .menu-bottom div {
     float: left;
     height: 17.5rem;
-    margin: 3% 3% 5% 0%;
+    margin: 3% 3% 3.5% 0%;
     width: 22%;
 }
 
@@ -348,6 +349,22 @@ h1 {
 .menu-bottom div img {
     height: 100%;
     width: 100%;
+}
+
+.menu-indicators {
+    padding-left: 45%;
+}
+
+.menu-indicators p {
+    color: #FFDBB1;
+    float: left;
+    font-family: "Yeseva One", serif;
+    font-size: 2rem;
+    width: 3%;
+}
+
+.menu-indicators p:nth-child(3) {
+    color: #FF8800;
 }
 
 footer {}
