@@ -306,11 +306,46 @@ h1 {
     color: #FFF;
     font-family: "Yeseva One", serif;
     font-size: 2rem;
-    margin-top: 35%;
+    margin: 35% 0% 5% 0%;
     text-align: center;
 }
 
+.menu-name {
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 4% 0% 15% 0%;
+}
+
+.menu-middle a {
+    background: #FF8800;
+    border-radius: 0.25rem;
+    color: #FFF;
+    font-size: 0.9rem;
+    padding: 3% 6%;
+}
+
 .menu-middle div img {
+    height: 100%;
+    width: 100%;
+}
+
+.menu-bottom {
+    width: 100%;
+}
+
+.menu-bottom div {
+    float: left;
+    height: 17.5rem;
+    margin: 3% 3% 5% 0%;
+    width: 22%;
+}
+
+.menu-bottom div:nth-child(1) {
+    margin-left: 0;
+}
+
+.menu-bottom div img {
     height: 100%;
     width: 100%;
 }
