@@ -385,7 +385,59 @@ h1 {
 
 .booking {
     background-image: url('../assets/images/booking-bg.jpg');
-    width: 100%;
+    color: #0D0D25;
+    padding: 5%;
+    text-align: center;
+}
+
+.booking-span {
+    color: #FF8800;
+    font-weight: 450;
+}
+
+.booking h2 {
+    font-family: "Yeseva One", serif;
+    font-size: 3rem;
+    margin: 1% 0% 3.5% 0%;
+}
+
+.booking-telephone {
+    display: block;
+    margin: 0 auto 1rem auto;
+    width: 3.5rem;
+}
+
+.booking-number {
+    color: #FF8800;
+    font-family: "Yeseva One", serif;
+    font-size: 1.75rem;
+    margin: 1% 0% 0.5% 0%;
+}
+
+.booking-schedule div {
+    float: left;
+    margin-bottom: 4%;
+    width: 50%;
+}
+
+.booking-schedule h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0% 0% 2% 0%;
+}
+
+.booking-schedule h4 {
+    font-family: "Yeseva One", serif;
+    font-size: 1.25rem;
+}
+
+.booking-display div {
+    float: left;
+}
+
+.booking-display-image {
+    background-image: url('');
+    width: 70%;
 }
 
 footer {}
