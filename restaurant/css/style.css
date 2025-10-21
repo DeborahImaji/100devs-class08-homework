@@ -243,6 +243,7 @@ h1 {
     margin: 0 auto;
     padding: 5% 7.5%;
     text-align: center;
+    width: 100%;
 }
 
 .menu-desc-span {
@@ -270,6 +271,11 @@ h1 {
     font-size: 1rem;
     padding-bottom: 1.25%;
     width: 9%;
+}
+
+.menu-gallery-container {
+    margin: 0 auto;
+    width: 100%;
 }
 
 .menu-middle {
@@ -365,6 +371,21 @@ h1 {
 
 .menu-indicators p:nth-child(3) {
     color: #FF8800;
+}
+
+.menu-middle::after,
+.menu-bottom::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* BOOKING */
+
+.booking {
+    background-image: url('../assets/images/booking-bg.jpg');
+    width: 100%;
 }
 
 footer {}
