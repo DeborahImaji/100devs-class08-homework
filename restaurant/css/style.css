@@ -385,8 +385,10 @@ h1 {
 
 .booking {
     background-image: url('../assets/images/booking-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     color: #0D0D25;
-    padding: 5%;
+    padding: 5% 0% 7.5% 5%;
     text-align: center;
 }
 
@@ -435,9 +437,36 @@ h1 {
     float: left;
 }
 
+.booking-display div:nth-child(1) {
+    text-align: left;
+}
+
+.booking-display div:nth-child(2) {
+    text-align: right;
+}
+
+.booking-arrow {
+    padding-top: 15%;
+    width: 20%;
+}
+
+.booking-arrow img {
+    width: 3rem;
+}
+
 .booking-display-image {
-    background-image: url('');
-    width: 70%;
+    background-image: url('../assets/images/booking-display-image.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25rem;
+    width: 60%;
+}
+
+.booking-display::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 footer {}
