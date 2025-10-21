@@ -271,6 +271,50 @@ h1 {
     width: 9%;
 }
 
+.menu-middle {
+    margin-top: 4%;
+    width: 100%;
+}
+
+.menu-middle div {
+    float: left;
+    height: 17.5rem;
+    margin-left: 3%;
+    width: 22%;
+}
+
+.menu-middle div:nth-child(1) {
+    background-image: url('../assets/images/menu-dish1.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 -10rem 10rem rgba(0, 0, 0, 0.76);
+    margin-left: 0;
+}
+
+.menu-middle span {
+    background: #FF8800;
+    border-radius: 1rem;
+    color: #FFF;
+    font-size: 0.8rem;
+    float: right;
+    margin: 5%;
+    padding: 2.5% 8%;
+}
+
+.menu-price {
+    color: #FFF;
+    font-family: "Yeseva One", serif;
+    font-size: 2rem;
+    margin-top: 35%;
+    text-align: center;
+}
+
+.menu-middle div img {
+    height: 100%;
+    width: 100%;
+}
+
 footer {}
 
 /******************************************
