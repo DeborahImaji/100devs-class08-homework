@@ -469,6 +469,57 @@ h1 {
     clear: both;
 }
 
+
+/* BLOG */
+
+.blog {
+    padding: 7% 20% 2.5% 20%;
+    text-align: center;
+}
+
+.blog-span {
+    color: #FF8800;
+    font-weight: 450;
+}
+
+.blog h2 {
+    font-family: "Yeseva One", serif;
+    font-size: 2.75rem;
+    margin: 1% 0% 6.5% 0%;
+}
+
+.blog-pfp {
+    width: 6rem;
+}
+
+.blog h3 {
+    color: #122D64;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 2% 0% 0.5% 0%;
+}
+
+.blog-job {
+    color: #929292;
+    font-size: 0.9rem;
+}
+
+.blog-rating {
+    font-size: 1.15rem;
+    margin: 2.75% 0% 3% 0%;
+}
+
+.blog-review {
+    font-size: 1.15rem;
+    font-style: italic;
+    line-height: 2rem;
+}
+
+.blog-indicators {
+    margin: 4% 0%;
+    width: 5rem;
+}
+
 footer {}
 
 /******************************************
