@@ -1,0 +1,138 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+.cinzel {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400 900;
+    font-style: normal;
+}
+
+body {
+    color: #000;
+    font-family: "Cinzel", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+span,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {}
+
+nav {
+    height: 3.75rem;
+    line-height: 3.75rem;
+    padding: 0% 7%;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    float: left;
+    line-height: 3.75rem;
+}
+
+.logo-li {
+    width: 7%;
+}
+
+.logo-li img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+.nav-middle {
+    padding: 0% 18.5%;
+}
+
+.nav-menu {
+    padding: 0% 3.75%;
+}
+
+.nav-menu a {
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.search-li {
+    margin-right: 3%;
+    width: 1.25%;
+}
+
+.search-li img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+.cart-li {
+    width: 2%;
+}
+
+.cart-li img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+.book-li {
+    text-align: right;
+    width: 20%;
+}
+
+.book-li a {
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+section {
+    background: lightblue;
+}
+
+footer {}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
