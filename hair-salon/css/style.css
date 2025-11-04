@@ -136,18 +136,78 @@ nav li {
     background-repeat: no-repeat;
     background-position: center;
     color: #FFF;
-    padding: 16.5% 14%;
+    padding: 16.5% 11%;
 }
 
 .home h1 {
     font-size: 5rem;
     font-weight: 400;
-    margin-bottom: 1.5%;
+    margin-bottom: 3%;
 }
 
 .home h3 {
     font-size: 1rem;
     font-weight: 500;
+    margin-bottom: 3.25%;
+}
+
+.home-services-btn {
+    background: #000000;
+    border: none;
+    border-radius: 0.25rem;
+    margin-bottom: 8.5%;
+    padding: 1.25% 3.4%;
+}
+
+.home-services-btn a {
+    color: #FFFFFF;
+    font-size: 0.7rem;
+    font-weight: 550;
+}
+
+.home div {
+    background-color: #000000;
+    padding: 2.1% 0% 0% 0%;
+    width: 26.5%;
+}
+
+.home div h4 {
+    border-left: 0.25rem solid #FFFFFF;
+    font-size: 0.825rem;
+    font-weight: 500;
+    margin-bottom: 5%;
+    padding: 10%;
+}
+
+.home-discount {
+    display: block;
+    font-weight: 450;
+    margin-bottom: 7%;
+    padding: 0% 10%;
+}
+
+.home-discount strong {
+    font-size: 2.25rem;
+}
+
+.home-style {
+    display: block;
+    font-weight: 450;
+    margin-bottom: 11%;
+    padding: 0% 10%;
+}
+
+.home div button {
+    background: #FFFFFF;
+    border: none;
+    border-radius: 0.25rem;
+    margin-left: 10%;
+    padding: 2.5%;
+}
+
+.home div button a {
+    font-size: 0.7rem;
+    font-weight: 550;
 }
 
 footer {}
