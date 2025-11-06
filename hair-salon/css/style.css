@@ -253,6 +253,45 @@ nav li {
 
 .about-desc {
     background: #F3F4F6;
+    padding: 5% 19% 26.5% 19%;
+}
+
+.about-desc-content {
+    float: left;
+    width: 42.5%;
+}
+
+.about-desc h2 {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    margin-bottom: 6.5%;
+}
+
+.about-desc p {
+    color: #363636;
+    font-family: "Momo Trust Sans", sans-serif;
+    font-size: 0.65rem;
+    font-weight: 350;
+    line-height: 1.25rem;
+    margin-bottom: 12%;
+}
+
+.about-desc a {
+    background: #000000;
+    color: #FFFFFF;
+    font-size: 0.65rem;
+    font-weight: 500;
+    padding: 5% 12%;
+}
+
+.about-desc-img {
+    float: left;
+    margin-left: 10%;
+    width: 47.5%;
+}
+
+.about-desc-img img {
+    width: 100%;
 }
 
 footer {}
