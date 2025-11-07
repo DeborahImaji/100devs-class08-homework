@@ -300,18 +300,22 @@ nav li {
     padding: 4% 19%;
 }
 
-.stylists div {
+.stylists {
+    margin-bottom: 60%;
+}
+
+.stylist {
     float: left;
     text-align: center;
     width: 31.66%;
 }
 
-.stylists div:nth-child(1),
-.stylists div:nth-child(2) {
+.stylist:nth-child(1),
+.stylist:nth-child(2) {
     margin-right: 2.5%;
 }
 
-.stylists img {
+.stylist img {
     width: 100%;
 }
 
@@ -319,18 +323,46 @@ nav li {
     background: #000000;
     color: #FFFFFF;
     margin: 0 auto;
-    padding: 6.5%;
-    width: 70%;
+    padding: 5%;
+    width: 75%;
 }
 
-.stylists h4 {
+.stylist h4 {
     font-size: 0.7rem;
     font-weight: 500;
 }
 
-.stylists span {
+.stylist span {
     font-size: 0.5rem;
     font-weight: 400;
+}
+
+.services-offer {
+    background-image: url('../assets/images/services-offer.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 8%;
+}
+
+.services-offer h4 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 2.25%;
+}
+
+.services-offer h3 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 2.75rem;
+    margin-bottom: 4.5%;
+}
+
+.services-offer a {
+    background: #000000;
+    color: #FFFFFF;
+    font-size: 0.75rem;
+    padding: 2% 4%;
 }
 
 footer {}
