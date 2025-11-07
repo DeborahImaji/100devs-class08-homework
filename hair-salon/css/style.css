@@ -253,7 +253,7 @@ nav li {
 
 .about-desc {
     background: #F3F4F6;
-    padding: 5% 19% 26.5% 19%;
+    padding: 5% 19% 27.5% 19%;
 }
 
 .about-desc-content {
@@ -292,6 +292,45 @@ nav li {
 
 .about-desc-img img {
     width: 100%;
+}
+
+
+/* SERVICES */
+.services {
+    padding: 4% 19%;
+}
+
+.stylists div {
+    float: left;
+    text-align: center;
+    width: 31.66%;
+}
+
+.stylists div:nth-child(1),
+.stylists div:nth-child(2) {
+    margin-right: 2.5%;
+}
+
+.stylists img {
+    width: 100%;
+}
+
+.stylist-info {
+    background: #000000;
+    color: #FFFFFF;
+    margin: 0 auto;
+    padding: 6.5%;
+    width: 70%;
+}
+
+.stylists h4 {
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.stylists span {
+    font-size: 0.5rem;
+    font-weight: 400;
 }
 
 footer {}
