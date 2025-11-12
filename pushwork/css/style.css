@@ -21,7 +21,17 @@
 /* BASE STYLES
 /*******************************************/
 
-body {}
+
+.source-sans-3 {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200 900;
+    font-style: normal;
+}
+
+body {
+    font-family: "Source Sans 3", sans-serif;
+}
 
 ul {
     margin: 0;
@@ -35,8 +45,8 @@ header {}
 
 nav {
     background: #151E30;
-    height: 4rem;
-    padding: 0 5.5rem;
+    height: 5rem;
+    padding: 0 4rem;
     width: 100%;
 }
 
@@ -46,21 +56,128 @@ nav ul {
 
 nav li {
     float: left;
-    line-height: 4rem;
+    line-height: 5rem;
 }
 
 .logo-li {
-    width: 45%;
+    width: 40%;
 }
 
 nav svg {
-    height: 2rem;
+    height: 1.25rem;
     vertical-align: middle;
-    width: 2rem;
+    width: 1.25rem;
 }
 
 .menu-option {
+    color: #BBBBBB;
+    font-size: 0.65rem;
+    padding-right: 2.5rem;
+}
+
+.menu-option.active {
     color: #FFFFFF;
+}
+
+.sign-li button {
+    background: #343b4b;
+    border: none;
+    border-radius: 0.25rem;
+    color: #FFFFFF;
+    font-size: 0.65rem;
+    padding: 0.75rem 1.5rem;
+    vertical-align: middle;
+}
+
+
+/* HOME */
+.home {
+    color: #FFFFFF;
+    margin-top: -0.063rem;
+    padding: 2.5rem 4rem 5rem 4rem;
+    padding-bottom: 5rem;
+    position: relative;
+}
+
+.home::before {
+    background: linear-gradient(to right, #151E30, #151E30);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.home::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.home-left {
+    float: left;
+    position: relative;
+    width: 52.5%;
+    z-index: 1;
+}
+
+.home-left h1 {
+    font-size: 1.65rem;
+    font-weight: 300;
+    line-height: 2rem;
+    margin-bottom: 1.25rem;
+}
+
+.home-left p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    margin-bottom: 3.5rem;
+}
+
+.home-links button {
+    border: none;
+    font-size: 0.7rem;
+    padding: 0.8rem 2.5rem;
+}
+
+.home-link-order {
+    background: #FFFFFF;
+    border-radius: 0.25rem;
+    color: #151E30;
+}
+
+.home-link-account {
+    background: none;
+    color: #FFFFFF;
+}
+
+.home-right {
+    background: #DFE1EA;
+    border: solid #FFFFFF;
+    border-radius: 1.25rem;
+    border-width: 0.9rem 1.9rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0rem 0.813rem 1.688rem -0.313rem, rgba(0, 0, 0, 0.3) 0rem 0.5rem 1rem -0.5rem;
+    float: left;
+    margin-bottom: -5rem;
+    padding: 7.5rem 10rem;
+    position: relative;
+    text-align: center;
+    width: 47.5%;
+    z-index: 1;
+}
+
+.home-right div {
+    background: #151E30;
+}
+
+.home-right svg {
+    display: block;
+    margin: 0.5rem auto;
+    width: 2.25rem;
 }
 
 footer {}
