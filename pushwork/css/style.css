@@ -30,9 +30,13 @@
 }
 
 body {
+    background: #F8F9FB;
+    color: #151E30;
     font-family: "Source Sans 3", sans-serif;
 }
 
+p,
+span,
 ul {
     margin: 0;
     padding: 0;
@@ -163,7 +167,7 @@ nav svg {
     box-shadow: rgba(50, 50, 93, 0.25) 0rem 0.813rem 1.688rem -0.313rem, rgba(0, 0, 0, 0.3) 0rem 0.5rem 1rem -0.5rem;
     float: left;
     margin-bottom: -5rem;
-    padding: 7.5rem 10rem;
+    padding: 5rem 7.5rem;
     position: relative;
     text-align: center;
     width: 47.5%;
@@ -172,15 +176,144 @@ nav svg {
 
 .home-right div {
     background: #151E30;
+    padding: 1.25rem 0;
 }
 
 .home-right svg {
     display: block;
     margin: 0.5rem auto;
-    width: 2.25rem;
+    width: 1.5rem;
 }
 
-footer {}
+.home-right span {
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+
+
+/* SERVICES */
+.services {
+    padding: 4rem;
+}
+
+.clients {
+    padding-left: 15rem;
+}
+
+.airbnb {
+    margin-right: 2.25rem;
+    width: 4rem;
+}
+
+.shopify {
+    margin-right: 2.25rem;
+    width: 4.25rem;
+}
+
+.salesforce {
+    margin-right: 2.25rem;
+    width: 2.75rem;
+}
+
+.twitter {
+    margin-right: 2.25rem;
+    width: 1.75rem;
+}
+
+.netflix {
+    margin-right: 2.25rem;
+    width: 3rem;
+}
+
+.dropbox {
+    margin-right: 2.25rem;
+    width: 5rem;
+}
+
+.huge {
+    width: 2.75rem;
+}
+
+.services-content {
+    padding: 5rem 0;
+}
+
+.services-left {
+    float: left;
+    width: 55%;
+}
+
+.services-left span {
+    font-size: 0.9rem;
+}
+
+.services-left h2 {
+    font-size: 1.8rem;
+    font-weight: 350;
+    margin: 1rem 0;
+}
+
+.services-left p {
+    font-size: 0.95rem;
+    font-weight: 300;
+    line-height: 1.75rem;
+}
+
+.services-left a {
+    background: #151E30;
+    border-radius: 0.25rem;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 0.7rem;
+    margin-top: 2rem;
+    padding: 0.8rem 2.5rem;
+}
+
+.services-right {
+    float: left;
+    width: 45%;
+}
+
+.service-card {
+    background: #DFE1EA;
+    border-radius: 0.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0rem 0.813rem 1.688rem -0.313rem, rgba(0, 0, 0, 0.3) 0rem 0.5rem 1rem -0.5rem;
+    float: left;
+    margin-bottom: 5.25%;
+    text-align: center;
+    width: 47.5%;
+}
+
+.service-card.first {
+    background: #151E30;
+    margin-right: 5%;
+}
+
+.service-card-img {
+    padding: 4rem 0;
+}
+
+.service-card.first .service-card-img {
+    color: #FFFFFF;
+}
+
+.service-card span {
+    font-size: 0.75rem;
+}
+
+.service-card svg {
+    display: block;
+    margin: 0 auto 0.5rem auto;
+    width: 1.5rem;
+}
+
+.service-card.third {
+    margin-right: 5%;
+}
+
+.service-card-content {
+    background: #FFFFFF;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
