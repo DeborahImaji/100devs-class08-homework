@@ -339,21 +339,107 @@ nav svg {
     float: left;
     margin-right: 6.5%;
     padding: 10rem;
+    text-align: center;
     width: 44%;
 }
 
 .about-left-img {
     background: #151E30;
     color: #FFFFFF;
+    padding: 1.75rem 0;
 }
 
 .about-left-img svg {
-    width: 2.5rem;
+    display: block;
+    margin: 0 auto 0.5rem auto;
+    width: 1.5rem;
+}
+
+.about-left-img span {
+    font-size: 0.75rem;
 }
 
 .about-right {
     float: left;
     width: 49.5%;
+}
+
+.about-right span {
+    font-size: 0.9rem;
+}
+
+.about-right h2 {
+    font-size: 2rem;
+    font-weight: 350;
+    line-height: 2.5rem;
+    margin: 1.25rem 0;
+}
+
+.about-right p {
+    font-size: 0.95rem;
+    font-weight: 300;
+    line-height: 1.75rem;
+    margin-bottom: 1.25rem;
+}
+
+.about-right a {
+    background: #151E30;
+    border-radius: 0.25rem;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 0.7rem;
+    margin-top: 2.5rem;
+    padding: 0.8rem 2.5rem;
+}
+
+
+/* TEAM */
+.team-top {
+    padding: 0 4rem;
+}
+
+.team-top h3 {
+    font-size: 1.75rem;
+    font-weight: 350;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.team-top-desc {
+    font-size: 0.95rem;
+    font-weight: 300;
+    line-height: 1.75rem;
+    text-align: center;
+}
+
+.team-top-content {
+    margin: 2.5rem 0;
+}
+
+.team-top-left {
+    background: #DFE1EA;
+    border-radius: 0.5rem;
+    float: left;
+    margin-right: 6.5%;
+    padding: 8.5rem 10rem;
+    text-align: center;
+    width: 44%;
+}
+
+.team-top-right {
+    float: left;
+    width: 49.5%;
+}
+
+.team-top-right span {
+    font-size: 0.9rem;
+}
+
+.team-top-right h2 {
+    font-size: 2rem;
+    font-weight: 350;
+    line-height: 2.5rem;
+    margin: 1.25rem 0;
 }
 
 /******************************************
