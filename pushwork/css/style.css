@@ -280,6 +280,7 @@ nav svg {
     box-shadow: rgba(50, 50, 93, 0.25) 0rem 0.813rem 1.688rem -0.313rem, rgba(0, 0, 0, 0.3) 0rem 0.5rem 1rem -0.5rem;
     float: left;
     margin-bottom: 5.25%;
+    overflow: hidden;
     text-align: center;
     width: 47.5%;
 }
@@ -313,6 +314,46 @@ nav svg {
 
 .service-card-content {
     background: #FFFFFF;
+    padding: 0.85rem 0;
+}
+
+.service-card h4 {
+    font-size: 0.75rem;
+    margin: 0.5rem 0;
+}
+
+.service-card p {
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+
+
+/* ABOUT */
+.about {
+    padding: 35rem 4rem;
+}
+
+.about-left {
+    background: #DFE1EA;
+    border-radius: 0.5rem;
+    float: left;
+    margin-right: 6.5%;
+    padding: 10rem;
+    width: 44%;
+}
+
+.about-left-img {
+    background: #151E30;
+    color: #FFFFFF;
+}
+
+.about-left-img svg {
+    width: 2.5rem;
+}
+
+.about-right {
+    float: left;
+    width: 49.5%;
 }
 
 /******************************************
