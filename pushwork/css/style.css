@@ -478,8 +478,17 @@ nav svg {
 
 .account-arrows div {
     border: 0.1rem solid #151E30;
+    border-radius: 50%;
     float: left;
+    margin-right: 1rem;
+    padding: 0.1rem 0.95rem;
+    text-align: center;
     width: 5%;
+}
+
+.account-arrows p {
+    font-size: 1.15rem;
+    font-weight: 400;
 }
 
 /******************************************
