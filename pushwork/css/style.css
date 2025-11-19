@@ -509,6 +509,34 @@ nav svg {
     width: 15%;
 }
 
+.team-bottom {
+    background: #FFFFFF;
+    position: relative;
+}
+
+.team-bottom::before {
+    background: linear-gradient(to right, #151E30, #151E30);
+    bottom: 0;
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+    content: "";
+    height: 70%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+}
+
+.team-bottom-wrapper {
+    padding: 4rem 4rem;
+    position: relative;
+    z-index: 1;
+}
+
+.team-card {
+    background: #FFFFFF;
+    width: 25%;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
