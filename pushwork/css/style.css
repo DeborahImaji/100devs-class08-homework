@@ -417,6 +417,12 @@ nav svg {
     margin: 2.5rem 0;
 }
 
+.team-top-content::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
 .team-top-left {
     background: #DFE1EA;
     border-radius: 0.5rem;
@@ -481,14 +487,26 @@ nav svg {
     border-radius: 50%;
     float: left;
     margin-right: 1rem;
-    padding: 0.1rem 0.95rem;
+    padding: 0.025rem 0.7rem;
     text-align: center;
     width: 5%;
 }
 
 .account-arrows p {
-    font-size: 1.15rem;
+    font-size: 1rem;
     font-weight: 400;
+}
+
+.team-top-a {
+    background: #151E30;
+    border-radius: 0.25rem;
+    color: #FFFFFF;
+    display: block;
+    font-size: 0.7rem;
+    margin: 0 auto;
+    padding: 0.8rem 0;
+    text-align: center;
+    width: 15%;
 }
 
 /******************************************
