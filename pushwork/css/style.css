@@ -330,11 +330,11 @@ nav svg {
 
 
 /* ABOUT */
-.about {
+.section {
     padding: 35rem 4rem;
 }
 
-.about-left {
+.section-left {
     background: #DFE1EA;
     border-radius: 0.5rem;
     float: left;
@@ -344,46 +344,46 @@ nav svg {
     width: 44%;
 }
 
-.about-left-img {
+.section-left-img {
     background: #151E30;
     color: #FFFFFF;
     padding: 1.75rem 0;
 }
 
-.about-left-img svg {
+.section-left-img svg {
     display: block;
     margin: 0 auto 0.5rem auto;
     width: 1.5rem;
 }
 
-.about-left-img span {
+.section-left-img span {
     font-size: 0.75rem;
 }
 
-.about-right {
+.section-right {
     float: left;
     width: 49.5%;
 }
 
-.about-right span {
+.section-right span {
     font-size: 0.9rem;
 }
 
-.about-right h2 {
+.section-right h2 {
     font-size: 2rem;
     font-weight: 350;
     line-height: 2.5rem;
     margin: 1.25rem 0;
 }
 
-.about-right p {
+.section-right p {
     font-size: 0.95rem;
     font-weight: 300;
     line-height: 1.75rem;
     margin-bottom: 1.25rem;
 }
 
-.about-right a {
+.section-right a {
     background: #151E30;
     border-radius: 0.25rem;
     color: #FFFFFF;
@@ -394,7 +394,7 @@ nav svg {
 }
 
 
-/* TEAM */
+/* TEAM TOP */
 .team-top {
     padding: 0 4rem;
 }
@@ -509,8 +509,12 @@ nav svg {
     width: 15%;
 }
 
+
+/* TEAM BOTTOM */
+
 .team-bottom {
     background: #FFFFFF;
+    overflow-x: hidden;
     position: relative;
 }
 
@@ -527,14 +531,90 @@ nav svg {
 }
 
 .team-bottom-wrapper {
-    padding: 4rem 4rem;
+    padding: 4rem 0 4.5rem 0;
     position: relative;
     z-index: 1;
 }
 
+.team-bottom-wrapper span {
+    font-size: 0.8rem;
+    padding-left: 4rem;
+}
+
+.team-bottom-wrapper h2 {
+    font-size: 1.65rem;
+    font-weight: 350;
+    line-height: 2.25rem;
+    margin: 0.7rem 0 5rem 0;
+    padding-left: 4rem;
+}
+
+.team-cards-top {
+    margin: 0 0 2rem 4rem;
+    width: calc(100% + 300px);
+}
+
+.team-cards-top::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.team-cards-bottom {
+    margin-left: -225px;
+    margin-right: 4rem;
+    width: calc(100% + 300px);
+}
+
+.team-cards-bottom::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
 .team-card {
     background: #FFFFFF;
-    width: 25%;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.1);
+    float: left;
+    margin-right: 2rem;
+    padding: 2rem;
+    width: 21.5rem;
+}
+
+.team-card.feature-card {
+    height: 11.05rem;
+    text-align: center;
+}
+
+.team-card.feature-card h4 {
+    margin-top: 20%;
+}
+
+.team-card-check {
+    background: #FFFFFF;
+    border: 0.15rem solid #151E30;
+    border-radius: 0.25rem;
+    height: 1.15rem;
+    margin-bottom: 1rem;
+    width: 1.15rem;
+}
+
+.team-card h4 {
+    margin-bottom: 0.75rem;
+}
+
+.team-card p {
+    font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+}
+
+
+/* BLOG TOP */
+
+.section.blog-top {
+    padding: 7rem 4rem 32.5rem 4rem;
 }
 
 /******************************************
