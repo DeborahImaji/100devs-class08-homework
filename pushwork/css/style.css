@@ -617,6 +617,92 @@ nav svg {
     padding: 7rem 4rem 32.5rem 4rem;
 }
 
+
+/* BLOG BOTTOM */
+.blog-bottom {
+    background: #FFFFFF;
+    padding: 6rem 4rem;
+}
+
+.blog-bottom::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.blog-left {
+    float: left;
+    text-align: center;
+    width: 3.5%;
+}
+
+.blog-middle {
+    float: left;
+    text-align: center;
+    width: 93%;
+}
+
+.blog-right {
+    float: left;
+    text-align: center;
+    width: 3.5%;
+}
+
+.blog-arrows {
+    border: 0.125rem solid #151E30;
+    border-radius: 50%;
+    font-size: 1rem;
+    padding: 0.4rem;
+}
+
+.blog-span {
+    display: inline-block;
+    margin-bottom: 1.75rem;
+}
+
+.blog-middle p {
+    font-size: 1.75rem;
+    font-weight: 300;
+    line-height: 2.5rem;
+}
+
+.blog-profile {
+    display: inline-block;
+    float: none;
+    margin: 2.5rem 0 0 0;
+    text-align: left;
+    width: 20%;
+}
+
+.blog-profile::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.blog-profile-pic {
+    background: #DFE1EA;
+    border-radius: 50%;
+    float: left;
+    height: 3.15rem;
+    margin-right: 3%;
+    width: 32%;
+}
+
+.blog-profile-desc {
+    float: left;
+    width: 65%;
+}
+
+.blog-profile-desc h5 {
+    margin: 0 0 0.65rem 0;
+}
+
+.blog-profile-desc span {
+    font-weight: 300;
+    font-size: 0.925rem;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
