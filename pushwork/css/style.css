@@ -632,6 +632,7 @@ nav svg {
 
 .blog-left {
     float: left;
+    padding-top: 7.5%;
     text-align: center;
     width: 3.5%;
 }
@@ -644,6 +645,7 @@ nav svg {
 
 .blog-right {
     float: left;
+    padding-top: 7.5%;
     text-align: center;
     width: 3.5%;
 }
@@ -685,8 +687,8 @@ nav svg {
     border-radius: 50%;
     float: left;
     height: 3.15rem;
-    margin-right: 3%;
-    width: 32%;
+    margin-right: 8%;
+    width: 25%;
 }
 
 .blog-profile-desc {
@@ -701,6 +703,60 @@ nav svg {
 .blog-profile-desc span {
     font-weight: 300;
     font-size: 0.925rem;
+}
+
+
+/* LOGIN */
+.login {
+    background: linear-gradient(to right, #1E2838, #040715);
+    color: #FFFFFF;
+    padding: 4rem 12rem;
+}
+
+.login::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.login div {
+    float: left;
+}
+
+.login-left {
+    width: 60%;
+}
+
+.login span {
+    font-weight: 300;
+}
+
+.login h3 {
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 1.25rem 0 0 0;
+}
+
+.login-right {
+    margin-top: 2.5%;
+    text-align: center;
+    width: 40%;
+}
+
+.login a {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.8rem 2.2rem;
+}
+
+.login-link-left {
+    background: #2B303E;
+    margin-right: 1rem;
+}
+
+.login-link-right {
+    background: #FFFFFF;
+    color: #151E30;
 }
 
 /******************************************
